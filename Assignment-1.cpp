@@ -25,12 +25,12 @@ Node* input(){
     string name;
     int count=0;
 
-    //int terminator
+    
     Node* head=NULL;
     Node* temp=head;
 
     //Enter exit to end the Task
-    cout << "To end the task of entering family member enter exit in the name block" << endl;
+    cout << "Enter exit in the name block to end the task of entering family members " << endl;
     cout << "Please enter the name of the family member : " << endl;
     
     //input 

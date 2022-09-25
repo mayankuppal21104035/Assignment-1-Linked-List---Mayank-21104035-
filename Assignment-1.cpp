@@ -73,7 +73,7 @@ Node* input(){
 void print(Node* head){
     Node* temp=head;
     while(temp!=NULL){
-        cout << "The name of the family member is : " << temp->name << "and age is: " << temp->age << endl;
+        cout << "The name of the family member is : " << temp->name << " and age is: " << temp->age << endl;
         temp=temp->next;
     }
 }
